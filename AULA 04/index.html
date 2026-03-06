@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 04</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    Na frase temos uma <b>parte do texto em negrito usando a tag B</b> (não semântica) <br>
+<p>Na frase temos uma parte do texto em negrito usando a tag strong (com semântica)</p>
+<h2>Itálico / Ênfase</h2>
+Nesta frase vamos entrar com uma palavra em  <i>itálico</i> usando a tag i (não semântica) <br>
+<p>Nesta frase vamos entrar com uma palavra em  <EM>itálico</EM> usando a tag EM (com semântica)</p> 
+<h2> Texto Marcador</h2>
+Aqui vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark <br>
+<p>Aqui vamos usar um texto com destaque <mark style="background-color: aquamarine;">de marcador de texto</mark> usando mark</p>
+<h2>Texto grande e pequeno</h2>
+Estamos trabalhando aqui com um texto <big>grande</big> e um <small>texto pequeno</small> nesta frase
+<h2>Texto deletado</h2>
+Neste parágrafo vamos trabalhar com um texto <del>que foi excluído</del> da frase (forma semântica)
+<h2>Texto inserido</h2>
+Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma semântica <br>
+Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica
+<h2>Texto sobrescrito</h2>
+Vamos demonstrar uma fórmula de equação do segundo grau ax <sup>2</sup> + bx + c = 0 usando a tag sup
+<h2>Texto subescrito</h2>
+Vamos demonstrar o texto subescrito com a fórmula da H<sub>2</sub>O
+<h2>Texto de código fonte</h2>
+Neste exemplo vou demonstrar um trecho de código <BR>
+inserido o comando xyz que é um comando java script <BR>
+Inserindo um longo código de phyton: <BR>
+    <br>
+<pre>
+<code>
+    import math
+
+# Entrada dos coeficientes
+a = float(input("Digite o valor de a: ")) <BR>
+b = float(input("Digite o valor de b: "))<BR>
+c = float(input("Digite o valor de c: "))<BR>
+
+# Verificar se é equação de segundo grau<BR>
+if a == 0:<BR>
+    print("Isso não é uma equação de segundo grau.")<BR>
+else:<BR>
+    # Cálculo do delta<BR>
+    delta = b**2 - 4*a*c<BR>
+    print("Delta =", delta)<BR>
+<br>
+    if delta < 0:<BR>
+        print("A equação não possui raízes reais.")<BR>
+    elif delta == 0:<BR>
+        x = -b / (2*a)<BR>
+        print("A equação possui uma raiz real:")<BR>
+        print("x =", x)<BR>
+    else:<BR>
+        x1 = (-b + math.sqrt(delta)) / (2*a)<BR>
+        x2 = (-b - math.sqrt(delta)) / (2*a)<BR>
+        print("A equação possui duas raízes reais:")<BR>
+        print("x1 =", x1)<BR>
+        print("x2 =", x2)<BR>
+            </code>
+            </pre>
+<h2>Citações (quitation)</h2>
+Segundo Steve Jobs "A tecnologia move o mundo" <BR>
+<H2>Citações completas (livros)</H2>
+Segundo Sandra Kussunoki no seu livro A dança e o ventre: 
+<p>Dados existenstes sobre intervenções cirúrgicas nos corpos contemporâneos visando à obtenção de um corpo </p>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
